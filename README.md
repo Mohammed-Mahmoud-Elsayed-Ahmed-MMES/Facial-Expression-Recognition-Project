@@ -181,5 +181,9 @@ The `real_time_detection.py` script uses MediaPipe for face detection and the Vi
 4. Push: `git push origin feature/your-feature`.
 5. Open a Pull Request.
 
+## Contact for Model and Dataset
+The trained model and datasets (KDEF and custom webcam-quality dataset) are not publicly available due to privacy and licensing restrictions. For access or inquiries:
+Email: [mohamedmahmoud2022.333@gmail.com]
+
 ## License
 [MIT License](LICENSE)

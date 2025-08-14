@@ -114,7 +114,7 @@ Run the pipeline scripts in order:
    ```
    Evaluates the best model on the test set, producing metrics and a confusion matrix (`confusion_matrix.png`).
 
-   ![Confusion Matrix](images/confusion_matrix.png)
+   ![Confusion Matrix](confusion_matrix.png)
 
 5. **Real-Time Detection**:
    ```bash

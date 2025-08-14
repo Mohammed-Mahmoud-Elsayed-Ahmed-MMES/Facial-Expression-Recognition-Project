@@ -1,0 +1,74 @@
+{
+  "evaluation_date": "2025-08-14T15:31:19.374403",
+  "checkpoint_directory": "D:\\Telegram Downloads\\Graduation Project\\Latest from ALL\\Facial_Expression files\\vit-Facial-Expression-Recognition-KDEF-M_B-checkpoints",
+  "total_checkpoints": 5,
+  "successful_evaluations": 5,
+  "failed_evaluations": 0,
+  "results": [
+    {
+      "checkpoint": "checkpoint-2000",
+      "step": 2000,
+      "val_accuracy": 0.9648148148148148,
+      "val_f1_macro": 0.9643113728502718,
+      "val_f1_weighted": 0.9647892574957936,
+      "val_loss": 0.14027943285798436,
+      "test_accuracy": 0.9500924214417745,
+      "test_f1_macro": 0.949856857430249,
+      "test_f1_weighted": 0.9500232015277222,
+      "test_loss": 0.18864372035707622,
+      "status": "success"
+    },
+    {
+      "checkpoint": "checkpoint-2100",
+      "step": 2100,
+      "val_accuracy": 0.962037037037037,
+      "val_f1_macro": 0.9613440415108576,
+      "val_f1_weighted": 0.9619751038283004,
+      "val_loss": 0.1453614947386086,
+      "test_accuracy": 0.9519408502772643,
+      "test_f1_macro": 0.9516314058904177,
+      "test_f1_weighted": 0.9518961669549982,
+      "test_loss": 0.18443433502141168,
+      "status": "success"
+    },
+    {
+      "checkpoint": "checkpoint-2200",
+      "step": 2200,
+      "val_accuracy": 0.9583333333333334,
+      "val_f1_macro": 0.9575808792412046,
+      "val_f1_weighted": 0.958272516159893,
+      "val_loss": 0.15474298154688715,
+      "test_accuracy": 0.9482439926062847,
+      "test_f1_macro": 0.9480175315288003,
+      "test_f1_weighted": 0.9482698388138753,
+      "test_loss": 0.1915406379300882,
+      "status": "success"
+    },
+    {
+      "checkpoint": "checkpoint-2300",
+      "step": 2300,
+      "val_accuracy": 0.962037037037037,
+      "val_f1_macro": 0.9613263941006798,
+      "val_f1_weighted": 0.9619669279855225,
+      "val_loss": 0.13923369360204293,
+      "test_accuracy": 0.9500924214417745,
+      "test_f1_macro": 0.949856857430249,
+      "test_f1_weighted": 0.9500232015277222,
+      "test_loss": 0.18446059955064864,
+      "status": "success"
+    },
+    {
+      "checkpoint": "checkpoint-2360",
+      "step": 2360,
+      "val_accuracy": 0.9611111111111111,
+      "val_f1_macro": 0.9603955159076191,
+      "val_f1_weighted": 0.9610374943449577,
+      "val_loss": 0.14105526692583226,
+      "test_accuracy": 0.9500924214417745,
+      "test_f1_macro": 0.949856857430249,
+      "test_f1_weighted": 0.9500232015277222,
+      "test_loss": 0.1845032860086683,
+      "status": "success"
+    }
+  ]
+}

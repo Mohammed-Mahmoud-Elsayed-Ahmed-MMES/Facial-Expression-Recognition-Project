@@ -1,19 +1,26 @@
 # Facial Expression Recognition with Vision Transformer
 
-This project implements a **Facial Expression Recognition** system using a fine-tuned Vision Transformer (ViT) model to classify seven emotions: **anger**, **disgust**, **fear**, **happy**, **neutral**, **sad**, and **surprise**. The model is trained on the KDEF dataset and a custom webcam-quality dataset, with face cropping performed using YOLOv11n-face. The pipeline supports data preprocessing, model training, checkpoint evaluation, test set evaluation, and real-time webcam-based detection.
+This project implements a **Facial Expression Recognition** system using a fine-tuned Vision Transformer (ViT) model to classify seven emotions: **anger**, **disgust**, **fear**, **happy**, **neutral**, **sad**, and **surprise**. The model is trained on the KDEF dataset and a custom webcam-quality dataset, with face cropping performed using YOLOv11n-face. 
 
-![Project Workflow](images/workflow_diagram.png)
+The pipeline supports: 
+- Data preprocessing 
+- Model training 
+- Checkpoint evaluation 
+- Test set evaluation
+- Real-time webcam-based detection.
 
-├── README.md                       # Project documentation  
-├── checkpoint_evaluation_report.json  # Metrics and results for model checkpoints  
-├── checkpoint_plots.png             # Training and evaluation plots for checkpoints  
-├── config.py                        # Configuration settings (paths, parameters, constants)  
-├── confusion_matrix.png             # Visualization of classification results  
-├── data_preprocessing.py            # Script for preparing and augmenting datasets  
-├── model_evaluation.py              # Evaluate the trained model's performance  
-├── model_saving.py                  # Save and load model checkpoints  
-├── model_training.py                # Model training script  
-├── real_time_detection.py           # Real-time facial expression detection  
+
+## Repository Structure
+├── **README.md**                       # Project documentation  
+├── **checkpoint_evaluation_report.json**  # Metrics and results for model checkpoints  
+├── **checkpoint_plots.png**             # Training and evaluation plots for checkpoints  
+├── **config.py**                        # Configuration settings (paths, parameters, constants)  
+├── **confusion_matrix.png**             # Visualization of classification results  
+├── **data_preprocessing.py**            # Script for preparing and augmenting datasets  
+├── **model_evaluation.py**              # Evaluate the trained model's performance  
+├── **model_saving.py**                  # Save and load model checkpoints  
+├── **model_training.py**                # Model training script  
+├── **real_time_detection.py**           # Real-time facial expression detection  
 
 
 ## Table of Contents
@@ -25,6 +32,7 @@ This project implements a **Facial Expression Recognition** system using a fine-
 - [Results](#results)
 - [Real-Time Detection Demo](#real-time-detection-demo)
 - [Contributing](#contributing)
+- [Contact for Model and Dataset](#contact-for-model-and-dataset)
 - [License](#license)
 
 ## Project Overview

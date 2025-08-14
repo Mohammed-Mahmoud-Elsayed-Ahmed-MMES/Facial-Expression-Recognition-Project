@@ -106,7 +106,7 @@ Run the pipeline scripts in order:
    ```
    Evaluates checkpoints, saves the best model to `BEST_MODEL_DIR`, and generates plots (`checkpoint_plots.png`).
 
-   ![Checkpoint Plots](images/checkpoint_plots.png)
+   ![Checkpoint Plots](checkpoint_plots.png)
 
 4. **Evaluate Best Model**:
    ```bash

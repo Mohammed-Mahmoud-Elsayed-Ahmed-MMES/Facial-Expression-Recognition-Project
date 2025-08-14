@@ -11,18 +11,19 @@ The pipeline supports:
 
 
 ## Repository Structure
-├── **README.md**                       # Project documentation  
-├── **checkpoint_evaluation_report.json**  # Metrics and results for model checkpoints  
-├── **checkpoint_plots.png**             # Training and evaluation plots for checkpoints  
-├── **config.py**                        # Configuration settings (paths, parameters, constants)  
-├── **confusion_matrix.png**             # Visualization of classification results  
-├── **data_preprocessing.py**            # Script for preparing and augmenting datasets  
-├── **model_evaluation.py**              # Evaluate the trained model's performance  
-├── **model_saving.py**                  # Save and load model checkpoints  
-├── **model_training.py**                # Model training script  
-├── **real_time_detection.py**           # Real-time facial expression detection  
-├── **requirements.txt**                 # Contains needed Libraries
-
+```plaintext
+├── README.md                       # Project documentation  
+├── checkpoint_evaluation_report.json  # Metrics and results for model checkpoints  
+├── checkpoint_plots.png             # Training and evaluation plots for checkpoints  
+├── config.py                        # Configuration settings (paths, parameters, constants)  
+├── confusion_matrix.png             # Visualization of classification results  
+├── data_preprocessing.py            # Script for preparing and augmenting datasets  
+├── model_evaluation.py              # Evaluate the trained model's performance  
+├── model_saving.py                  # Save and load model checkpoints  
+├── model_training.py                # Model training script  
+├── real_time_detection.py           # Real-time facial expression detection  
+├── requirements.txt                 # Contains needed Libraries
+```
 
 ## Table of Contents
 - [Project Overview](#project-overview)

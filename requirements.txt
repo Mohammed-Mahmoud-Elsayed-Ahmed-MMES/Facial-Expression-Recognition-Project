@@ -1,0 +1,13 @@
+torch
+numpy
+huggingface-hub
+datasets
+transformers
+tensorflow
+torchvision
+scikit-learn
+pandas
+matplotlib
+tqdm
+Pillow
+

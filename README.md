@@ -41,7 +41,12 @@ The project fine-tunes a pre-trained Vision Transformer model (`motheecreator/vi
 - **KDEF**: Karolinska Directed Emotional Faces, a standard dataset for facial expression recognition.
 - **Custom Webcam-Quality Dataset**: A dataset created to mimic real-world webcam conditions, enhancing model robustness for real-time detection.
 
-Faces in both datasets are cropped using **YOLOv11n-face** for consistent input. The pipeline includes:
+Faces in both datasets are cropped using **YOLOv11n-face** for consistent input.  
+**Note on Detection Methods**: During dataset preparation, YOLOv11n-face was used for accurate face cropping, ensuring consistent, high-quality inputs for training.  
+However, for real-time detection via webcam, **MediaPipe** is used instead of YOLO. This choice was made because MediaPipe runs faster and is lighter on resources, enabling smooth live performance even without a powerful GPU. While YOLO was ideal for preprocessing, MediaPipe offers better real-time usability with minimal accuracy trade-off.
+
+
+The pipeline includes:
 - **Data Preprocessing**: Applies augmentations (rotation, flip, sharpness, color jitter) and normalization.
 - **Model Training**: Fine-tunes the ViT model for 20 epochs.
 - **Checkpoint Evaluation**: Evaluates checkpoints to select the best model based on validation accuracy.

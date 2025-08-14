@@ -1,6 +1,6 @@
 # Facial Expression Recognition with Vision Transformer
 
-This project implements a **Facial Expression Recognition** system using a fine-tuned Vision Transformer (ViT) model to classify seven emotions: **anger**, **disgust**, **fear**, **happy**, **neutral**, **sad**, and **surprise**. The model is trained on the KDEF dataset and a custom webcam-quality dataset, with face cropping performed using YOLOv11n-face. 
+This project implements a **Facial Expression Recognition** system using a fine-tuned Vision Transformer (ViT) model to classify seven emotions: **anger**, **disgust**, **fear**, **happy**, **neutral**, **sad**, and **surprise**. The model is trained on the KDEF dataset and a custom webcam-quality dataset, with face cropping performed using **YOLOv11n-face**. 
 
 The pipeline supports: 
 - Data preprocessing 
@@ -21,6 +21,7 @@ The pipeline supports:
 ├── **model_saving.py**                  # Save and load model checkpoints  
 ├── **model_training.py**                # Model training script  
 ├── **real_time_detection.py**           # Real-time facial expression detection  
+├── **requirements.txt**                 # Contains needed Libraries
 
 
 ## Table of Contents

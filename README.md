@@ -183,11 +183,3 @@ The `real_time_detection.py` script uses MediaPipe for face detection and the Vi
 
 ## License
 [MIT License](LICENSE)
-
----
-
-**Notes**:
-- Replace `your-username` with your GitHub username.
-- Add images (`workflow_diagram.png`, `confusion_matrix.png`, `checkpoint_plots.png`, `realtime_detection_screenshot.png`) to `images/`.
-- Add video (`realtime_detection_demo.mp4`) to `videos/`.
-- Push media files to GitHub to render in the README.

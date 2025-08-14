@@ -4,6 +4,18 @@ This project implements a **Facial Expression Recognition** system using a fine-
 
 ![Project Workflow](images/workflow_diagram.png)
 
+├── README.md                       # Project documentation  
+├── checkpoint_evaluation_report.json  # Metrics and results for model checkpoints  
+├── checkpoint_plots.png             # Training and evaluation plots for checkpoints  
+├── config.py                        # Configuration settings (paths, parameters, constants)  
+├── confusion_matrix.png             # Visualization of classification results  
+├── data_preprocessing.py            # Script for preparing and augmenting datasets  
+├── model_evaluation.py              # Evaluate the trained model's performance  
+├── model_saving.py                  # Save and load model checkpoints  
+├── model_training.py                # Model training script  
+├── real_time_detection.py           # Real-time facial expression detection  
+
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Datasets](#datasets)

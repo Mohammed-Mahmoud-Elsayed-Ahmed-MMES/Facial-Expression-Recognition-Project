@@ -9,6 +9,8 @@ The pipeline supports:
 - Test set evaluation
 - Real-time webcam-based detection.
 
+# Demo
+https://github.com/user-attachments/assets/11695988-4df8-4892-b035-f939cb8edacd
 
 ## Repository Structure
 ```plaintext
@@ -133,7 +135,7 @@ Run the pipeline scripts in order:
    ```
    Evaluates checkpoints, saves the best model to `BEST_MODEL_DIR`, and generates plots (`checkpoint_plots.png`).
 
-   ![Checkpoint Plots](checkpoint_plots.png)
+   ![Checkpoint Plots](Images/Best_Checkpoint.png)
 
 4. **Evaluate Best Model**:
    ```bash
@@ -141,26 +143,13 @@ Run the pipeline scripts in order:
    ```
    Evaluates the best model on the test set, producing metrics and a confusion matrix (`confusion_matrix.png`).
 
-   ![Confusion Matrix](confusion_matrix.png)
+   ![Confusion Matrix](Images/confusion_matrix.png)
 
 5. **Real-Time Detection**:
    ```bash
    python real_time_detection.py
    ```
    Runs webcam-based detection. Press `q` to exit.
-
-   **Demo Video**:
-   ```markdown
-   <video controls>
-     <source src="videos/realtime_detection_demo.mp4" type="video/mp4">
-     Your browser does not support the video tag.
-   </video>
-   ```
-
-   To record a demo:
-   - Use OBS Studio to capture `real_time_detection.py` output.
-   - Save as `videos/realtime_detection_demo.mp4`.
-   - Push to GitHub.
 
 ## Results
 The best model (selected by validation accuracy) achieves:
@@ -194,12 +183,7 @@ The `real_time_detection.py` script uses MediaPipe for face detection and the Vi
 - Top-3 probability scores.
 
 **Screenshot**:
-![Real-Time Detection](images/realtime_detection_screenshot.png)
-
-**Video Demo**:
-- Record `real_time_detection.py` using a webcam.
-- Save to `videos/realtime_detection_demo.mp4`.
-- Push to GitHub for rendering in the README.
+![Real-Time Detection](Images/realtime_detection_screenshot.png)
 
 ## Contributing
 1. Fork the repository.

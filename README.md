@@ -10,7 +10,7 @@ The pipeline supports:
 - Real-time webcam-based detection.
 
 # Demo
-https://github.com/user-attachments/assets/11695988-4df8-4892-b035-f939cb8edacd
+https://github.com/user-attachments/assets/b05e2e02-7157-412d-b54d-1fbc50054c1b
 
 ## Repository Structure
 ```plaintext
